@@ -1,0 +1,9 @@
+$fs:25px;
+
+@mixin flexIt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@import './index.scss';

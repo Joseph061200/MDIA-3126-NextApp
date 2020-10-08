@@ -1,0 +1,20 @@
+.home {
+    .menu {
+        position: relative;
+        z-index:1;
+    }
+    .content {
+        position: fixed;
+        left:0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index:-1;
+
+        & > div {
+            @include flexIt();
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+    }
+}
